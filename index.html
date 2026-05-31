@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="حجر طبيعي وتراث وشبك - توريد وتركيب جميع أنحاء المملكة العربية السعودية. متخصصون في الحجر الطبيعي والحجر التراثي والشبك المعماري بأعلى جودة">
+  <meta name="keywords" content="حجر طبيعي, حجر تراثي, شبك, توريد حجر, تركيب حجر, حجر الرياض, حجر جدة, حجر مكة, حجر المدينة, واجهات حجرية, ديكور حجري, حجر بازلت, حجر رملي, حجر جيري, حجر صوان, حجر جرانيت, حجر رخام, شبك حديد, شبك معماري, شبك حجري, واجهات خارجية, تشطيبات حجرية, حجر ابيض, حجر اصفر, حجر هاشمي, مقاول حجر, تركيب واجهات, حجر ابوظبي, حجر سعودي, حجر طبيعي المملكة, تراث معماري, عمارة حجرية, ارضيات حجرية, اسوار حجرية">
+  <meta name="author" content="حجر طبيعي وتراث وشبك">
+  <meta property="og:title" content="حجر طبيعي وتراث وشبك | المملكة العربية السعودية">
+  <meta property="og:description" content="توريد وتركيب الحجر الطبيعي والتراثي والشبك المعماري في جميع أنحاء المملكة">
+  <meta property="og:type" content="website">
+  <title>حجر طبيعي وتراث وشبك | توريد وتركيب - المملكة العربية السعودية</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.min.css">
+
+  <style>
+    :root {
+      --sand:      #c8a96e;
+      --sand-lt:   #e8d5a3;
+      --sand-dk:   #8b6914;
+      --sand-pale: #f5edd8;
+      --stone:     #d4b483;
+      --terracotta:#b5652a;
+      --earth:     #7a5c2e;
+      --dark-bg:   #1a1510;
+      --dark2:     #211c14;
+      --dark3:     #2c2518;
+      --charcoal:  #3a3020;
+      --off-white: #f8f3ec;
+      --warm-grey: #9a8870;
+      --rust:      #a0522d;
+      --olive:     #6b6b3a;
+      --cream:     #fdf6e8;
+      --nav-h:     78px;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:'Tajawal',sans-serif;background:var(--dark-bg);color:var(--off-white);overflow-x:hidden;direction:rtl}
+    ::-webkit-scrollbar{width:6px}
+    ::-webkit-scrollbar-track{background:var(--dark2)}
+    ::-webkit-scrollbar-thumb{background:var(--sand);border-radius:3px}
+
+    /* CURSOR */
+    .cur-dot{width:8px;height:8px;background:var(--sand);border-radius:50%;position:fixed;pointer-events:none;z-index:99999;transition:transform .1s}
+    .cur-ring{width:38px;height:38px;border:2px solid var(--sand);border-radius:50%;position:fixed;pointer-events:none;z-index:99998;transition:width .2s,height .2s,opacity .2s;opacity:.55}
+
+    /* PRELOADER */
+    #preloader{position:fixed;inset:0;background:var(--dark-bg);z-index:99997;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .9s,visibility .9s}
+    #preloader.hide{opacity:0;visibility:hidden}
+    .pre-icon{font-size:3.5rem;color:var(--sand);margin-bottom:24px;animation:pre-pulse 1.4s ease-in-out infinite}
+    .pre-title{font-family:'Scheherazade New',serif;font-size:1.8rem;color:var(--sand-lt);margin-bottom:28px}
+    .pre-bar{width:220px;height:3px;background:var(--charcoal);border-radius:2px;overflow:hidden}
+    .pre-fill{height:100%;background:linear-gradient(90deg,var(--sand-dk),var(--sand),var(--sand-lt));animation:pre-load 2.4s ease forwards}
+    @keyframes pre-load{from{width:0}to{width:100%}}
+    @keyframes pre-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.65;transform:scale(.94)}}
+
+    /* NOISE TEXTURE OVERLAY */
+    body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E");pointer-events:none;z-index:0;opacity:.6}
+
+    /* NAV */
+    #mainNav{position:fixed;top:0;width:100%;z-index:9999;height:var(--nav-h);background:transparent;transition:all .4s}
+    #mainNav.scrolled{background:rgba(26,21,16,.96);backdrop-filter:blur(18px);border-bottom:1px solid rgba(200,169,110,.18);box-shadow:0 4px 28px rgba(0,0,0,.6)}
+    .brand-icon{width:50px;height:50px;background:linear-gradient(135deg,var(--sand-dk),var(--sand));border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;color:var(--dark-bg);flex-shrink:0}
+    .brand-name{font-family:'Scheherazade New',serif;font-size:1.35rem;color:var(--sand);line-height:1.2}
+    .brand-sub{font-size:.6rem;color:var(--warm-grey);letter-spacing:2px;display:block}
+    .nav-link{font-weight:500;font-size:.92rem;color:var(--sand-lt) !important;padding:6px 13px !important;position:relative;transition:color .3s}
+    .nav-link::after{content:'';position:absolute;bottom:0;right:50%;width:0;height:2px;background:var(--sand);transition:all .3s;transform:translateX(50%)}
+    .nav-link:hover{color:var(--sand) !important}
+    .nav-link:hover::after{width:80%}
+    .nav-cta{background:linear-gradient(135deg,var(--sand-dk),var(--sand)) !important;color:var(--dark-bg) !important;border-radius:5px;padding:9px 22px !important;font-weight:700;transition:all .3s !important}
+    .nav-cta:hover{transform:translateY(-2px);box-shadow:0 6px 22px rgba(200,169,110,.45) !important}
+    .nav-cta::after{display:none}
+    .navbar-toggler{border:1px solid var(--sand);padding:6px 10px}
+    .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28200%2C169%2C110%2C1%29' stroke-linecap='round' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
+    @media(max-width:991px){.navbar-collapse{background:rgba(26,21,16,.98);padding:18px;border-top:1px solid rgba(200,169,110,.18);margin-top:8px}}
+
+    /* SECTION COMMONS */
+    section{padding:100px 0;position:relative;z-index:1}
+    .sec-label{display:inline-flex;align-items:center;gap:10px;color:var(--sand);font-size:.78rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin-bottom:14px}
+    .sec-label::before,.sec-label::after{content:'';width:28px;height:1px;background:var(--sand)}
+    .sec-title{font-family:'Scheherazade New',serif;font-size:clamp(1.8rem,4vw,2.9rem);font-weight:700;line-height:1.3;margin-bottom:14px}
+    .sec-title span{background:linear-gradient(135deg,var(--sand-dk),var(--sand),var(--sand-lt));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .sec-desc{color:var(--warm-grey);font-size:1rem;line-height:1.9;max-width:620px}
+    .divider{width:55px;height:3px;background:linear-gradient(90deg,var(--sand-dk),var(--sand));border-radius:2px;margin:14px 0 30px}
+    .btn-sand{background:linear-gradient(135deg,var(--sand-dk),var(--sand));color:var(--dark-bg);font-weight:700;font-size:.98rem;padding:13px 32px;border:none;border-radius:5px;cursor:pointer;transition:all .3s;font-family:'Tajawal',sans-serif;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+    .btn-sand:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(200,169,110,.42);color:var(--dark-bg)}
+    .btn-out-sand{background:transparent;color:var(--sand);font-weight:600;font-size:.98rem;padding:12px 32px;border:1px solid var(--sand);border-radius:5px;cursor:pointer;transition:all .3s;font-family:'Tajawal',sans-serif;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+    .btn-out-sand:hover{background:rgba(200,169,110,.1);transform:translateY(-3px);color:var(--sand)}
+
+    /* ===== HERO ===== */
+    #hero{min-height:100vh;display:flex;align-items:center;overflow:hidden;background:var(--dark-bg)}
+    .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 60%,rgba(200,169,110,.09) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(181,101,42,.06) 0%,transparent 50%),linear-gradient(160deg,#1a1510 0%,#211c14 50%,#1a1510 100%)}
+    .hero-pattern{position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c8a96e' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
+    .hero-content{position:relative;z-index:2}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(200,169,110,.1);border:1px solid rgba(200,169,110,.3);padding:8px 20px;border-radius:50px;font-size:.83rem;color:var(--sand);margin-bottom:22px;animation:fadeUp .8s .5s both}
+    .hero-title{font-family:'Scheherazade New',serif;font-size:clamp(2.4rem,6vw,5rem);font-weight:700;line-height:1.15;margin-bottom:10px;animation:fadeUp .9s .7s both}
+    .hero-title span{background:linear-gradient(135deg,var(--sand-dk),var(--sand),var(--sand-lt));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .hero-sub{font-size:clamp(1rem,2vw,1.4rem);color:var(--warm-grey);margin-bottom:18px;animation:fadeUp .9s .9s both}
+    .hero-desc{font-size:1rem;color:var(--warm-grey);line-height:1.9;max-width:560px;margin-bottom:34px;animation:fadeUp .9s 1.1s both}
+    .hero-btns{animation:fadeUp .9s 1.3s both}
+    .hero-stats{display:flex;gap:36px;margin-top:46px;animation:fadeUp .9s 1.5s both}
+    .h-stat-n{font-family:'Scheherazade New',serif;font-size:2.2rem;font-weight:700;color:var(--sand);line-height:1}
+    .h-stat-l{font-size:.78rem;color:var(--warm-grey);margin-top:4px}
+    .hero-divider{width:1px;background:rgba(200,169,110,.2)}
+    .hero-tiles{display:grid;grid-template-columns:1fr 1fr;gap:14px;animation:fadeLeft 1s .8s both}
+    .hero-tile{background:rgba(255,255,255,.03);border:1px solid rgba(200,169,110,.14);border-radius:10px;padding:26px 18px;text-align:center;transition:all .4s;cursor:default}
+    .hero-tile:hover{border-color:var(--sand);background:rgba(200,169,110,.06);transform:translateY(-6px);box-shadow:0 12px 36px rgba(200,169,110,.14)}
+    .hero-tile i{font-size:1.9rem;color:var(--sand);margin-bottom:9px;display:block}
+    .hero-tile span{font-size:.82rem;color:var(--sand-lt)}
+    .hero-scroll{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:7px;color:var(--warm-grey);font-size:.73rem;animation:bounce 2s infinite}
+    .hero-scroll i{font-size:1.1rem;color:var(--sand)}
+    @keyframes bounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes fadeLeft{from{opacity:0;transform:translateX(38px)}to{opacity:1;transform:translateX(0)}}
+
+    /* TICKER */
+    #ticker{background:linear-gradient(135deg,var(--sand-dk),var(--sand));padding:13px 0;overflow:hidden}
+    .tick-wrap{display:flex;animation:tick 32s linear infinite;white-space:nowrap}
+    .tick-item{display:inline-flex;align-items:center;gap:10px;padding:0 38px;font-weight:700;font-size:.88rem;color:var(--dark-bg)}
+    @keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+    /* ABOUT */
+    #about{background:var(--dark2)}
+    .about-visual{background:linear-gradient(135deg,var(--dark3),var(--charcoal));border:1px solid rgba(200,169,110,.18);border-radius:14px;padding:55px 35px;text-align:center;position:relative;overflow:hidden}
+    .about-visual::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(200,169,110,.1) 0%,transparent 70%)}
+    .about-visual i{font-size:5.5rem;color:var(--sand);position:relative;z-index:1}
+    .about-badge-pill{position:absolute;bottom:-12px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,var(--sand-dk),var(--sand));color:var(--dark-bg);font-weight:700;font-size:.82rem;padding:8px 22px;border-radius:50px;white-space:nowrap;z-index:2}
+    .about-feat{display:flex;align-items:flex-start;gap:15px;margin-bottom:22px}
+    .feat-icon{width:48px;height:48px;background:rgba(200,169,110,.1);border:1px solid rgba(200,169,110,.28);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--sand);font-size:1.1rem;flex-shrink:0}
+    .about-feat h5{font-size:.98rem;font-weight:700;margin-bottom:4px}
+    .about-feat p{font-size:.86rem;color:var(--warm-grey);margin:0;line-height:1.7}
+
+    /* SERVICES */
+    #services{background:var(--dark-bg)}
+    .srv-card{background:rgba(255,255,255,.02);border:1px solid rgba(200,169,110,.1);border-radius:12px;padding:34px 26px;transition:all .4s;height:100%;position:relative;overflow:hidden}
+    .srv-card::before{content:'';position:absolute;bottom:0;right:0;width:100px;height:100px;background:radial-gradient(circle,rgba(200,169,110,.08) 0%,transparent 70%);transition:all .4s}
+    .srv-card:hover{border-color:var(--sand);transform:translateY(-8px);box-shadow:0 18px 48px rgba(200,169,110,.12);background:rgba(200,169,110,.03)}
+    .srv-card:hover::before{width:180px;height:180px}
+    .srv-num{position:absolute;top:18px;left:18px;font-family:'Scheherazade New',serif;font-size:2.8rem;color:rgba(200,169,110,.06);font-weight:700;line-height:1}
+    .srv-icon{width:66px;height:66px;background:linear-gradient(135deg,rgba(200,169,110,.15),rgba(200,169,110,.05));border:1px solid rgba(200,169,110,.28);border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:1.7rem;color:var(--sand);margin-bottom:18px;transition:all .3s}
+    .srv-card:hover .srv-icon{background:linear-gradient(135deg,var(--sand-dk),var(--sand));color:var(--dark-bg);transform:rotate(-5deg) scale(1.05)}
+    .srv-card h3{font-size:1.1rem;font-weight:700;margin-bottom:10px}
+    .srv-card p{font-size:.88rem;color:var(--warm-grey);line-height:1.8;margin:0}
+
+    /* STONE TYPES */
+    #stone-types{background:var(--dark2)}
+    .stone-card{background:rgba(255,255,255,.02);border:1px solid rgba(200,169,110,.1);border-radius:10px;padding:28px 20px;text-align:center;transition:all .4s}
+    .stone-card:hover{border-color:var(--sand);transform:translateY(-6px);background:rgba(200,169,110,.04);box-shadow:0 14px 36px rgba(200,169,110,.1)}
+    .stone-card i{font-size:2.3rem;color:var(--sand);margin-bottom:14px;display:block}
+    .stone-card h4{font-size:.98rem;font-weight:700;margin-bottom:8px}
+    .stone-card p{font-size:.84rem;color:var(--warm-grey);margin:0;line-height:1.7}
+    .stone-dot{width:40px;height:40px;border-radius:50%;margin:0 auto 12px;border:2px solid rgba(200,169,110,.3)}
+
+    /* WHY US */
+    #why-us{background:var(--dark-bg)}
+    .why-row{display:flex;align-items:flex-start;gap:18px;padding:24px;border-radius:10px;border:1px solid rgba(200,169,110,.08);background:rgba(255,255,255,.015);transition:all .4s;margin-bottom:16px}
+    .why-row:hover{border-color:rgba(200,169,110,.28);transform:translateX(-5px);background:rgba(200,169,110,.025)}
+    .why-n{font-family:'Scheherazade New',serif;font-size:2.3rem;font-weight:700;color:var(--sand);line-height:1;min-width:48px}
+    .why-row h4{font-size:1rem;font-weight:700;margin-bottom:5px}
+    .why-row p{font-size:.86rem;color:var(--warm-grey);margin:0;line-height:1.7}
+    .why-visual{background:linear-gradient(135deg,var(--dark3),var(--charcoal));border:1px solid rgba(200,169,110,.18);border-radius:14px;padding:44px 28px;text-align:center;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px}
+    .why-big{text-align:center}
+    .why-big-n{font-family:'Scheherazade New',serif;font-size:3.8rem;font-weight:700;background:linear-gradient(135deg,var(--sand-dk),var(--sand));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1}
+    .why-big-l{font-size:.88rem;color:var(--warm-grey);margin-top:5px}
+
+    /* WORKS */
+    #works{background:var(--dark2)}
+    .works-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+    .work-card{position:relative;border-radius:8px;overflow:hidden;aspect-ratio:1;background:var(--charcoal);border:1px solid rgba(200,169,110,.1);cursor:pointer}
+    .work-card img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;display:block}
+    .work-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,0,0,.8),rgba(200,169,110,.18));opacity:0;transition:opacity .4s;display:flex;align-items:center;justify-content:center}
+    .work-card:hover img{transform:scale(1.1)}
+    .work-card:hover .work-overlay{opacity:1}
+    .zoom-ic{width:54px;height:54px;background:var(--sand);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--dark-bg);font-size:1.2rem;transform:scale(.4);transition:transform .3s}
+    .work-card:hover .zoom-ic{transform:scale(1)}
+
+    /* PROCESS */
+    #process{background:var(--dark-bg)}
+    .proc-step{text-align:center;padding:28px 18px;position:relative}
+    .proc-step::after{content:'';position:absolute;top:44px;left:0;width:50%;height:2px;background:linear-gradient(to right,var(--sand),transparent)}
+    .proc-step:last-child::after{display:none}
+    [dir=rtl] .proc-step::after{left:auto;right:0;background:linear-gradient(to left,var(--sand),transparent)}
+    .proc-icon{width:78px;height:78px;background:linear-gradient(135deg,var(--dark3),var(--charcoal));border:2px solid rgba(200,169,110,.28);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:1.7rem;color:var(--sand);transition:all .4s;position:relative}
+    .proc-step:hover .proc-icon{background:linear-gradient(135deg,var(--sand-dk),var(--sand));color:var(--dark-bg);border-color:var(--sand);transform:scale(1.1)}
+    .proc-num{position:absolute;top:-8px;right:-8px;width:22px;height:22px;background:var(--sand);color:var(--dark-bg);border-radius:50%;font-size:.72rem;font-weight:700;display:flex;align-items:center;justify-content:center}
+    .proc-step h4{font-size:.98rem;font-weight:700;margin-bottom:7px}
+    .proc-step p{font-size:.84rem;color:var(--warm-grey);line-height:1.7}
+
+    /* ARTICLE */
+    #article{background:var(--dark2)}
+    .art-wrap{background:rgba(255,255,255,.02);border:1px solid rgba(200,169,110,.14);border-radius:14px;padding:48px}
+    .art-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(200,169,110,.1);border:1px solid rgba(200,169,110,.28);color:var(--sand);padding:6px 16px;border-radius:4px;font-size:.78rem;font-weight:700;letter-spacing:1px;margin-bottom:22px}
+    .art-title{font-family:'Scheherazade New',serif;font-size:clamp(1.5rem,3vw,2.1rem);font-weight:700;margin-bottom:22px;line-height:1.45}
+    .art-body{color:var(--sand-lt);font-size:.97rem;line-height:2.05}
+    .art-body p{margin-bottom:18px}
+    .art-body h4{font-family:'Scheherazade New',serif;font-size:1.15rem;color:var(--sand);margin:26px 0 10px}
+    .art-body ul{padding-right:20px;margin-bottom:18px}
+    .art-body ul li{margin-bottom:7px}
+    .art-body ul li::marker{color:var(--sand)}
+    .art-quote{background:rgba(200,169,110,.08);border-right:3px solid var(--sand);padding:18px 22px;border-radius:0 8px 8px 0;margin:22px 0;font-style:italic;color:var(--sand-lt)}
+    .art-kw{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+    .kw-tag{background:rgba(255,255,255,.03);border:1px solid rgba(200,169,110,.18);color:var(--warm-grey);padding:5px 13px;border-radius:50px;font-size:.78rem;transition:all .3s;cursor:default}
+    .kw-tag:hover{border-color:var(--sand);color:var(--sand);background:rgba(200,169,110,.06)}
+
+    /* NUMBERS */
+    #numbers{background:var(--dark-bg)}
+    .num-card{text-align:center;padding:38px 18px;border:1px solid rgba(200,169,110,.1);border-radius:10px;transition:all .4s}
+    .num-card:hover{border-color:var(--sand);transform:translateY(-6px);background:rgba(200,169,110,.03)}
+    .num-card i{font-size:2.1rem;color:var(--sand);margin-bottom:14px;display:block}
+    .num-val{font-family:'Scheherazade New',serif;font-size:2.9rem;font-weight:700;color:var(--sand);line-height:1}
+    .num-label{font-size:.88rem;color:var(--warm-grey);margin-top:7px}
+
+    /* COVERAGE */
+    #coverage{background:var(--dark2)}
+    .cov-card{background:rgba(255,255,255,.02);border:1px solid rgba(200,169,110,.1);border-radius:12px;padding:36px 28px;text-align:center;transition:all .4s}
+    .cov-card:hover{border-color:var(--sand);transform:translateY(-6px);box-shadow:0 14px 38px rgba(200,169,110,.1)}
+    .cov-icon{width:74px;height:74px;background:linear-gradient(135deg,rgba(200,169,110,.15),rgba(200,169,110,.05));border:1px solid rgba(200,169,110,.28);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:1.9rem;color:var(--sand)}
+    .cov-card h3{font-size:1.2rem;font-weight:700;margin-bottom:10px}
+    .cov-card p{font-size:.88rem;color:var(--warm-grey);line-height:1.8}
+
+    /* TESTIMONIALS */
+    #testimonials{background:var(--dark-bg)}
+    .test-card{background:rgba(255,255,255,.02);border:1px solid rgba(200,169,110,.1);border-radius:12px;padding:32px 28px;height:100%;transition:all .4s;position:relative}
+    .test-card:hover{border-color:rgba(200,169,110,.28);transform:translateY(-6px)}
+    .test-stars{color:var(--sand);font-size:.88rem;margin-bottom:18px}
+    .test-text{color:var(--sand-lt);font-size:.92rem;line-height:1.9;margin-bottom:22px;font-style:italic}
+    .test-author{display:flex;align-items:center;gap:13px}
+    .auth-av{width:46px;height:46px;background:linear-gradient(135deg,var(--sand-dk),var(--sand));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;color:var(--dark-bg);font-weight:700;flex-shrink:0}
+    .auth-name{font-size:.92rem;font-weight:700}
+    .auth-city{font-size:.78rem;color:var(--warm-grey)}
+    .test-qmark{position:absolute;top:18px;left:18px;font-size:3rem;color:rgba(200,169,110,.07);font-family:'Scheherazade New',serif;line-height:1}
+
+    /* FAQ */
+    #faq{background:var(--dark2)}
+    .faq-item{border:1px solid rgba(200,169,110,.1);border-radius:7px;margin-bottom:10px;overflow:hidden;transition:all .3s}
+    .faq-item.open{border-color:rgba(200,169,110,.28)}
+    .faq-q{padding:18px 22px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-weight:600;font-size:.95rem;transition:color .3s}
+    .faq-q:hover,.faq-item.open .faq-q{color:var(--sand)}
+    .faq-ic{color:var(--sand);transition:transform .3s;flex-shrink:0}
+    .faq-item.open .faq-ic{transform:rotate(45deg)}
+    .faq-ans{padding:0 22px;max-height:0;overflow:hidden;transition:all .4s;color:var(--warm-grey);font-size:.9rem;line-height:1.8}
+    .faq-item.open .faq-ans{padding:0 22px 18px;max-height:250px}
+
+    /* CONTACT */
+    #contact{background:var(--dark-bg)}
+    .cnt-info{background:rgba(255,255,255,.02);border:1px solid rgba(200,169,110,.1);border-radius:12px;padding:28px}
+    .cnt-item{display:flex;align-items:center;gap:15px;padding:16px 0;border-bottom:1px solid rgba(200,169,110,.07)}
+    .cnt-item:last-child{border-bottom:none;padding-bottom:0}
+    .cnt-icon{width:46px;height:46px;background:rgba(200,169,110,.1);border:1px solid rgba(200,169,110,.2);border-radius:7px;display:flex;align-items:center;justify-content:center;color:var(--sand);font-size:1.05rem;flex-shrink:0}
+    .cnt-lbl{font-size:.78rem;color:var(--warm-grey)}
+    .cnt-val{font-size:.92rem;font-weight:600}
+    .cnt-val a{color:var(--off-white);text-decoration:none}
+    .cnt-val a:hover{color:var(--sand)}
+    .form-wrap{background:rgba(255,255,255,.02);border:1px solid rgba(200,169,110,.14);border-radius:14px;padding:36px}
+    .form-label{font-size:.88rem;font-weight:600;color:var(--sand-lt);margin-bottom:7px}
+    .form-control,.form-select{background:rgba(255,255,255,.04);border:1px solid rgba(200,169,110,.14);color:var(--off-white);border-radius:6px;padding:11px 15px;font-family:'Tajawal',sans-serif;font-size:.92rem;transition:all .3s}
+    .form-control:focus,.form-select:focus{background:rgba(255,255,255,.06);border-color:var(--sand);color:var(--off-white);box-shadow:0 0 0 3px rgba(200,169,110,.14)}
+    .form-control::placeholder{color:var(--charcoal)}
+    .form-select option{background:var(--dark3)}
+    textarea.form-control{min-height:130px;resize:vertical}
+
+    /* CTA BANNER */
+    #cta-band{background:linear-gradient(135deg,var(--dark3) 0%,var(--charcoal) 100%);border-top:1px solid rgba(200,169,110,.18);border-bottom:1px solid rgba(200,169,110,.18);padding:78px 0;text-align:center;position:relative;overflow:hidden;z-index:1}
+    #cta-band::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(200,169,110,.08) 0%,transparent 70%)}
+    .cta-title{font-family:'Scheherazade New',serif;font-size:clamp(1.7rem,4vw,2.7rem);margin-bottom:14px}
+    .cta-desc{color:var(--warm-grey);font-size:1rem;max-width:600px;margin:0 auto 32px}
+    .cta-phones{display:flex;justify-content:center;gap:18px;flex-wrap:wrap}
+    .cta-ph{display:flex;align-items:center;gap:9px;background:rgba(255,255,255,.05);border:1px solid rgba(200,169,110,.2);padding:13px 22px;border-radius:7px;font-size:1.05rem;font-weight:700;color:var(--sand);text-decoration:none;transition:all .3s}
+    .cta-ph:hover{background:rgba(200,169,110,.1);color:var(--sand);transform:translateY(-3px)}
+
+    /* FOOTER */
+    #footer{background:var(--dark2);padding:66px 0 28px;border-top:1px solid rgba(200,169,110,.14)}
+    .ft-brand{font-family:'Scheherazade New',serif;font-size:1.4rem;color:var(--sand);margin-bottom:13px}
+    .ft-desc{font-size:.88rem;color:var(--warm-grey);line-height:1.8;margin-bottom:18px}
+    .ft-social{display:flex;gap:10px}
+    .soc-btn{width:38px;height:38px;background:rgba(200,169,110,.08);border:1px solid rgba(200,169,110,.18);border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--warm-grey);font-size:.95rem;transition:all .3s;text-decoration:none}
+    .soc-btn:hover{background:var(--sand);color:var(--dark-bg);border-color:var(--sand);transform:translateY(-3px)}
+    .ft-heading{font-size:.97rem;font-weight:700;color:var(--sand);margin-bottom:18px;position:relative;padding-bottom:10px}
+    .ft-heading::after{content:'';position:absolute;bottom:0;right:0;width:28px;height:2px;background:var(--sand)}
+    .ft-links{list-style:none;padding:0}
+    .ft-links li{margin-bottom:9px}
+    .ft-links a{color:var(--warm-grey);text-decoration:none;font-size:.88rem;transition:all .3s;display:flex;align-items:center;gap:7px}
+    .ft-links a:hover{color:var(--sand);padding-right:5px}
+    .ft-links a i{font-size:.68rem}
+    .ft-bottom{border-top:1px solid rgba(200,169,110,.1);margin-top:46px;padding-top:22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
+    .ft-bottom p{margin:0;font-size:.82rem;color:var(--warm-grey)}
+    .gmt-link{color:var(--sand);text-decoration:none;font-weight:600;font-size:.82rem;transition:color .3s}
+    .gmt-link:hover{color:var(--sand-lt)}
+
+    /* FLOATS */
+    .wa-float{position:fixed;bottom:28px;left:28px;z-index:9999}
+    .wa-btn{display:flex;align-items:center;gap:9px;background:#25D366;color:#fff;padding:13px 18px;border-radius:50px;text-decoration:none;font-weight:700;font-size:.87rem;box-shadow:0 6px 28px rgba(37,211,102,.4);transition:all .3s;animation:wa-pulse 2.5s ease-in-out infinite}
+    .wa-btn:hover{background:#20c45a;color:#fff;transform:scale(1.05)}
+    .wa-btn i{font-size:1.25rem}
+    @keyframes wa-pulse{0%,100%{box-shadow:0 6px 28px rgba(37,211,102,.4)}50%{box-shadow:0 6px 46px rgba(37,211,102,.7)}}
+    .ph-float{position:fixed;bottom:28px;right:28px;z-index:9999}
+    .ph-btn{width:54px;height:54px;background:linear-gradient(135deg,var(--sand-dk),var(--sand));color:var(--dark-bg);border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:1.3rem;box-shadow:0 6px 28px rgba(200,169,110,.5);transition:all .3s;animation:ph-pulse 2s ease-in-out infinite}
+    .ph-btn:hover{transform:scale(1.12) rotate(-15deg);color:var(--dark-bg)}
+    @keyframes ph-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+    #scrollTop{position:fixed;bottom:90px;right:28px;z-index:9999;width:42px;height:42px;background:rgba(200,169,110,.14);border:1px solid var(--sand);color:var(--sand);border-radius:6px;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;visibility:hidden;transition:all .3s}
+    #scrollTop.show{opacity:1;visibility:visible}
+    #scrollTop:hover{background:var(--sand);color:var(--dark-bg)}
+
+    /* FLOATING ORB ANIMATION */
+    .float-orb{animation:orb 4s ease-in-out infinite}
+    @keyframes orb{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+    /* RESPONSIVE */
+    @media(max-width:1199px){.works-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
+    @media(max-width:991px){section{padding:70px 0}.hero-stats{gap:20px}.art-wrap{padding:30px 22px}.form-wrap{padding:26px 18px}}
+    @media(max-width:767px){section{padding:58px 0}.works-grid{grid-template-columns:repeat(3,1fr);gap:7px}.proc-step::after{display:none}.hero-tiles{display:none}}
+    @media(max-width:575px){.works-grid{grid-template-columns:repeat(2,1fr)}.cta-ph{font-size:.9rem;padding:11px 16px}.hero-desc{display:none}}
+  </style>
+</head>
+<body>
+
+<div class="cur-dot" id="cDot"></div>
+<div class="cur-ring" id="cRing"></div>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <div class="pre-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+  <div class="pre-title">حجر طبيعي وتراث وشبك</div>
+  <div class="pre-bar"><div class="pre-fill"></div></div>
+</div>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-3" href="#">
+      <div class="brand-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+      <div>
+        <div class="brand-name">حجر وتراث وشبك</div>
+        <span class="brand-sub">توريد وتركيب | المملكة</span>
+      </div>
+    </a>
+    <button class="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav me-auto gap-1">
+        <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">خدماتنا</a></li>
+        <li class="nav-item"><a class="nav-link" href="#works">أعمالنا</a></li>
+        <li class="nav-item"><a class="nav-link" href="#article">المقال</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">الأسئلة</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">تواصل</a></li>
+      </ul>
+      <a href="tel:0535422043" class="nav-link nav-cta d-none d-lg-flex align-items-center gap-2">
+        <i class="fa-solid fa-phone"></i> اتصل الآن
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+  <div class="container position-relative" style="z-index:2">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7 hero-content">
+        <div class="hero-badge"><i class="fa-solid fa-gem"></i> أصالة الحجر الطبيعي منذ الأزل</div>
+        <h1 class="hero-title">حجر طبيعي وتراث<br><span>وشبك معماري</span></h1>
+        <p class="hero-sub">توريد وتركيب | جميع أنحاء المملكة العربية السعودية</p>
+        <p class="hero-desc">متخصصون في توريد وتركيب الحجر الطبيعي التراثي والشبك المعماري لجميع المشاريع السكنية والتجارية والحكومية في كافة مناطق المملكة.</p>
+        <div class="hero-btns d-flex flex-wrap gap-3">
+          <a href="#contact" class="btn-sand">
+            <i class="fa-solid fa-paper-plane"></i>احصل على عرض سعر
+          </a>
+          <a href="#works" class="btn-out-sand">
+            <i class="fa-solid fa-images"></i>شاهد أعمالنا
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="text-center">
+            <div class="h-stat-n" data-target="300">0</div>
+            <div class="h-stat-l">مشروع منجز</div>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="text-center">
+            <div class="h-stat-n" data-target="20">0</div>
+            <div class="h-stat-l">سنة خبرة</div>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="text-center">
+            <div class="h-stat-n" data-target="13">0</div>
+            <div class="h-stat-l">منطقة في المملكة</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="hero-tiles float-orb">
+          <div class="hero-tile" data-aos="zoom-in" data-aos-delay="100">
+            <i class="fa-solid fa-mountain-sun"></i>
+            <span>حجر طبيعي</span>
+          </div>
+          <div class="hero-tile" data-aos="zoom-in" data-aos-delay="200">
+            <i class="fa-solid fa-landmark"></i>
+            <span>طابع تراثي</span>
+          </div>
+          <div class="hero-tile" data-aos="zoom-in" data-aos-delay="300">
+            <i class="fa-solid fa-border-all"></i>
+            <span>شبك معماري</span>
+          </div>
+          <div class="hero-tile" data-aos="zoom-in" data-aos-delay="400">
+            <i class="fa-solid fa-truck"></i>
+            <span>توريد وتركيب</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>استكشف</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div id="ticker">
+  <div class="tick-wrap" id="tickWrap">
+    <span class="tick-item"><i class="fa-solid fa-mountain-sun"></i> حجر طبيعي</span>
+    <span class="tick-item"><i class="fa-solid fa-landmark"></i> حجر تراثي</span>
+    <span class="tick-item"><i class="fa-solid fa-border-all"></i> شبك معماري</span>
+    <span class="tick-item"><i class="fa-solid fa-truck"></i> توريد وتركيب</span>
+    <span class="tick-item"><i class="fa-solid fa-map-marked-alt"></i> جميع مناطق المملكة</span>
+    <span class="tick-item"><i class="fa-solid fa-gem"></i> جودة لا تضاهى</span>
+    <span class="tick-item"><i class="fa-solid fa-hard-hat"></i> تنفيذ احترافي</span>
+    <span class="tick-item"><i class="fa-solid fa-shield-check"></i> ضمان شامل</span>
+    <!-- dup -->
+    <span class="tick-item"><i class="fa-solid fa-mountain-sun"></i> حجر طبيعي</span>
+    <span class="tick-item"><i class="fa-solid fa-landmark"></i> حجر تراثي</span>
+    <span class="tick-item"><i class="fa-solid fa-border-all"></i> شبك معماري</span>
+    <span class="tick-item"><i class="fa-solid fa-truck"></i> توريد وتركيب</span>
+    <span class="tick-item"><i class="fa-solid fa-map-marked-alt"></i> جميع مناطق المملكة</span>
+    <span class="tick-item"><i class="fa-solid fa-gem"></i> جودة لا تضاهى</span>
+    <span class="tick-item"><i class="fa-solid fa-hard-hat"></i> تنفيذ احترافي</span>
+    <span class="tick-item"><i class="fa-solid fa-shield-check"></i> ضمان شامل</span>
+  </div>
+</div>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5" data-aos="fade-left">
+        <div class="about-visual">
+          <i class="fa-solid fa-mountain-sun float-orb" style="font-size:5.5rem;color:var(--sand);position:relative;z-index:1"></i>
+          <div class="about-badge-pill"><i class="fa-solid fa-trophy me-2"></i>الأفضل في المملكة</div>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="fade-right">
+        <div class="sec-label">من نحن</div>
+        <h2 class="sec-title">رواد الحجر الطبيعي<br><span>والتراث المعماري</span></h2>
+        <div class="divider"></div>
+        <p class="sec-desc mb-4">نحن شركة رائدة في مجال توريد وتركيب الحجر الطبيعي والتراثي والشبك المعماري في المملكة العربية السعودية. نمتلك خبرة واسعة تمتد لعقدين من الزمن في تنفيذ المشاريع الكبرى والصغيرة على حدٍّ سواء.</p>
+        <div class="about-feat" data-aos="fade-up" data-aos-delay="100">
+          <div class="feat-icon"><i class="fa-solid fa-gem"></i></div>
+          <div>
+            <h5>حجر طبيعي أصيل</h5>
+            <p>نوفر أجود أنواع الحجر الطبيعي من مصادر موثوقة بمواصفات دولية عالية الجودة.</p>
+          </div>
+        </div>
+        <div class="about-feat" data-aos="fade-up" data-aos-delay="200">
+          <div class="feat-icon"><i class="fa-solid fa-landmark"></i></div>
+          <div>
+            <h5>تراث معماري أصيل</h5>
+            <p>نحافظ على روح العمارة التراثية السعودية ونُحييها في كل مشروع نتولاه بلمسة عصرية راقية.</p>
+          </div>
+        </div>
+        <div class="about-feat" data-aos="fade-up" data-aos-delay="300">
+          <div class="feat-icon"><i class="fa-solid fa-map-marked-alt"></i></div>
+          <div>
+            <h5>تغطية شاملة للمملكة</h5>
+            <p>نخدم جميع مناطق ومحافظات المملكة العربية السعودية من أقصى الشمال إلى أقصى الجنوب.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">خدماتنا</div>
+      <h2 class="sec-title">خدمات <span>شاملة ومتكاملة</span></h2>
+      <div class="divider mx-auto"></div>
+      <p class="sec-desc mx-auto">نقدم منظومة متكاملة من الخدمات في مجال الحجر الطبيعي والتراثي والشبك المعماري</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="srv-card">
+          <div class="srv-num">01</div>
+          <div class="srv-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+          <h3>توريد الحجر الطبيعي</h3>
+          <p>نوفر مختلف أنواع الحجر الطبيعي من بازلت وجرانيت وجيري وصوان ورملي بأحجام وأشكال متعددة تناسب كل مشروع.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="srv-card">
+          <div class="srv-num">02</div>
+          <div class="srv-icon"><i class="fa-solid fa-landmark"></i></div>
+          <h3>الحجر التراثي</h3>
+          <p>متخصصون في تنفيذ الواجهات التراثية والأسوار والزخارف الحجرية التي تعكس العمارة السعودية الأصيلة.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="srv-card">
+          <div class="srv-num">03</div>
+          <div class="srv-icon"><i class="fa-solid fa-border-all"></i></div>
+          <h3>الشبك المعماري</h3>
+          <p>نوفر ونركب جميع أنواع الشبك المعماري الحجري والمعدني للواجهات والمداخل والأسوار بتصاميم مخصصة.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+        <div class="srv-card">
+          <div class="srv-num">04</div>
+          <div class="srv-icon"><i class="fa-solid fa-hard-hat"></i></div>
+          <h3>التركيب الاحترافي</h3>
+          <p>فريق تركيب متخصص يضمن التنفيذ الدقيق وفق المعايير الهندسية المعتمدة في جميع مناطق المملكة.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="srv-card">
+          <div class="srv-num">05</div>
+          <div class="srv-icon"><i class="fa-solid fa-house-chimney"></i></div>
+          <h3>واجهات المنازل</h3>
+          <p>تكسية واجهات الفلل والمنازل بالحجر الطبيعي لمنحها مظهراً فاخراً وحمايتها من العوامل البيئية.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="350">
+        <div class="srv-card">
+          <div class="srv-num">06</div>
+          <div class="srv-icon"><i class="fa-solid fa-building"></i></div>
+          <h3>المشاريع التجارية</h3>
+          <p>تنفيذ مشاريع الفنادق والمولات والمباني التجارية والحكومية بمواصفات احترافية وجودة عالية.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STONE TYPES ===== -->
+<section id="stone-types">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">أنواع الحجر</div>
+      <h2 class="sec-title">مجموعتنا من <span>الحجر الطبيعي</span></h2>
+      <div class="divider mx-auto"></div>
+      <p class="sec-desc mx-auto">نوفر أنواعاً متعددة من الحجر الطبيعي لتلبية جميع الأذواق والاحتياجات المعمارية</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="50">
+        <div class="stone-card">
+          <div class="stone-dot" style="background:linear-gradient(135deg,#2d2d2d,#555)"></div>
+          <i class="fa-solid fa-circle-dot"></i>
+          <h4>البازلت</h4>
+          <p>متانة عالية ومقاومة للحرارة</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+        <div class="stone-card">
+          <div class="stone-dot" style="background:linear-gradient(135deg,#c8a96e,#e8d5a3)"></div>
+          <i class="fa-solid fa-layer-group"></i>
+          <h4>الرملي</h4>
+          <p>طابع تراثي دافئ ومميز</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="150">
+        <div class="stone-card">
+          <div class="stone-dot" style="background:linear-gradient(135deg,#e0d0b8,#f5edd8)"></div>
+          <i class="fa-solid fa-mountain"></i>
+          <h4>الجيري</h4>
+          <p>خفيف الوزن متعدد الألوان</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
+        <div class="stone-card">
+          <div class="stone-dot" style="background:linear-gradient(135deg,#7a6a5a,#9a8870)"></div>
+          <i class="fa-solid fa-gem"></i>
+          <h4>الجرانيت</h4>
+          <p>الأمتن والأكثر تحملاً</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="250">
+        <div class="stone-card">
+          <div class="stone-dot" style="background:linear-gradient(135deg,#555,#888)"></div>
+          <i class="fa-solid fa-star-of-david"></i>
+          <h4>الصوان</h4>
+          <p>صلابة قصوى وملمس فريد</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="300">
+        <div class="stone-card">
+          <div class="stone-dot" style="background:linear-gradient(135deg,#b5652a,#d4864a)"></div>
+          <i class="fa-solid fa-fire"></i>
+          <h4>الطفلة</h4>
+          <p>تراثي بامتياز وعريق</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY US ===== -->
+<section id="why-us">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <div class="sec-label" data-aos="fade-up">لماذا نحن</div>
+        <h2 class="sec-title" data-aos="fade-up" data-aos-delay="80">ما يميزنا<br><span>عن الجميع</span></h2>
+        <div class="divider" data-aos="fade-up" data-aos-delay="120"></div>
+        <div class="why-row" data-aos="fade-up" data-aos-delay="160">
+          <div class="why-n">01</div>
+          <div>
+            <h4>خبرة عشرين عاماً</h4>
+            <p>نمتلك تجربة ميدانية ثرية في تنفيذ مئات المشاريع بمختلف الأحجام والمواصفات.</p>
+          </div>
+        </div>
+        <div class="why-row" data-aos="fade-up" data-aos-delay="200">
+          <div class="why-n">02</div>
+          <div>
+            <h4>مواد أصلية مضمونة</h4>
+            <p>نتعامل مع أفضل المقاطع والمناجم لضمان حصولكم على حجر أصيل بمواصفات عالية.</p>
+          </div>
+        </div>
+        <div class="why-row" data-aos="fade-up" data-aos-delay="240">
+          <div class="why-n">03</div>
+          <div>
+            <h4>تغطية جغرافية شاملة</h4>
+            <p>نصل إليكم في جميع مناطق ومحافظات المملكة العربية السعودية الثلاث عشرة.</p>
+          </div>
+        </div>
+        <div class="why-row" data-aos="fade-up" data-aos-delay="280">
+          <div class="why-n">04</div>
+          <div>
+            <h4>أسعار تنافسية</h4>
+            <p>نقدم أفضل الأسعار في السوق دون المساومة على الجودة مع خيارات تمويلية مرنة.</p>
+          </div>
+        </div>
+        <div class="why-row" data-aos="fade-up" data-aos-delay="320">
+          <div class="why-n">05</div>
+          <div>
+            <h4>ضمان شامل بعد التسليم</h4>
+            <p>نضمن أعمالنا كاملاً ونقدم خدمة صيانة ودعم فني مستمر بعد التسليم.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5" data-aos="fade-left">
+        <div class="why-visual">
+          <i class="fa-solid fa-award" style="font-size:3.8rem;color:var(--sand)" data-aos="zoom-in"></i>
+          <div class="why-big">
+            <div class="why-big-n" data-target="300">0</div>
+            <div class="why-big-l">مشروع منجز بنجاح</div>
+          </div>
+          <div class="why-big">
+            <div class="why-big-n" data-target="99">0</div>
+            <div class="why-big-l">% نسبة رضا العملاء</div>
+          </div>
+          <div class="why-big">
+            <div class="why-big-n" data-target="13">0</div>
+            <div class="why-big-l">منطقة تغطيها خدماتنا</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WORKS ===== -->
+<section id="works">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">معرض الأعمال</div>
+      <h2 class="sec-title">أعمالنا <span>تتحدث عنا</span></h2>
+      <div class="divider mx-auto"></div>
+      <p class="sec-desc mx-auto">مجموعة مختارة من مشاريعنا المنجزة في مختلف مناطق المملكة</p>
+    </div>
+    <div class="works-grid" id="worksGrid" data-aos="fade-up" data-aos-delay="100"></div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section id="process">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">كيف نعمل</div>
+      <h2 class="sec-title">خطوات <span>التنفيذ</span></h2>
+      <div class="divider mx-auto"></div>
+    </div>
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-6 col-md-3">
+        <div class="proc-step">
+          <div class="proc-icon"><i class="fa-solid fa-phone"></i><span class="proc-num">1</span></div>
+          <h4>التواصل والاستشارة</h4>
+          <p>اتصل بنا أو أرسل رسالة لمناقشة مشروعك</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="proc-step">
+          <div class="proc-icon"><i class="fa-solid fa-ruler-combined"></i><span class="proc-num">2</span></div>
+          <h4>المعاينة والقياس</h4>
+          <p>نزيارة الموقع ونأخذ المقاسات الدقيقة</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="proc-step">
+          <div class="proc-icon"><i class="fa-solid fa-file-invoice-dollar"></i><span class="proc-num">3</span></div>
+          <h4>العرض والاتفاق</h4>
+          <p>نقدم عرض سعر مفصل ونوقع العقد</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="proc-step">
+          <div class="proc-icon"><i class="fa-solid fa-check-double"></i><span class="proc-num">4</span></div>
+          <h4>التنفيذ والتسليم</h4>
+          <p>ننفذ ونسلم في الموعد المحدد</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ARTICLE ===== -->
+<section id="article">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">المقال</div>
+      <h2 class="sec-title">دليلك لعالم <span>الحجر الطبيعي والتراث</span></h2>
+      <div class="divider mx-auto"></div>
+    </div>
+    <div class="art-wrap" data-aos="fade-up" data-aos-delay="100">
+      <div class="art-tag"><i class="fa-solid fa-newspaper"></i> مقال تخصصي شامل</div>
+      <h3 class="art-title">الحجر الطبيعي والتراثي والشبك المعماري في المملكة العربية السعودية — الدليل الكامل</h3>
+      <div class="art-body">
+        <p>
+          يُعدّ <strong>الحجر الطبيعي</strong> من أقدم مواد البناء وأكثرها أصالةً في شبه الجزيرة العربية. فمنذ آلاف السنين، شيّد الأجداد حصونهم ومساجدهم وأسواقهم من الحجر، ليُبقوا لنا إرثاً معمارياً لا مثيل له. واليوم، وفي ظل التطور العمراني الهائل الذي تشهده المملكة العربية السعودية، يعود الحجر الطبيعي إلى الواجهة بقوة، لا باعتباره مادةً بنائية فحسب، بل هوية بصرية وثقافية تميّز المشاريع وترفع من قيمتها الجمالية والاستثمارية.
+        </p>
+        <h4><i class="fa-solid fa-mountain-sun me-2"></i>أنواع الحجر الطبيعي المستخدمة في المملكة</h4>
+        <p>
+          تزخر المملكة العربية السعودية بثروات طبيعية هائلة من الحجر المتنوع. ومن أبرز الأنواع المستخدمة في مجال البناء والتشطيب:
+        </p>
+        <ul>
+          <li><strong>البازلت الأسود:</strong> يتميز بمتانة استثنائية ومقاومة عالية للحرارة والعوامل الجوية، يُستخدم في الأرضيات والواجهات الخارجية والأسوار.</li>
+          <li><strong>الحجر الرملي:</strong> يمنح الواجهات طابعاً دافئاً وتراثياً فريداً، متوفر بألوان متعددة من الأصفر الذهبي إلى البني الترابي.</li>
+          <li><strong>الحجر الجيري:</strong> خفيف الوزن، سهل التشكيل، يُستخدم في الزخارف والنقوش التراثية والواجهات الداخلية.</li>
+          <li><strong>الجرانيت:</strong> الأكثر صلابةً ومتانةً، مناسب للأرضيات والمناطق عالية الحركة والمشاريع الفاخرة.</li>
+          <li><strong>الصوان:</strong> يتميز بملمس خاص وصلابة قصوى، نادر ومميز في تصاميمه الطبيعية.</li>
+          <li><strong>حجر الطفلة:</strong> متجذّر في العمارة النجدية والحجازية التقليدية، يمنح المباني طابعاً تراثياً عريقاً.</li>
+        </ul>
+        <div class="art-quote">
+          "الحجر الطبيعي ليس مادةً جامدة، بل هو روح التاريخ محفورة في قلب الأرض. كل قطعة حجر تحمل قصة ألف عام، وكل واجهة حجرية تروي ملامح هوية لا تُمحى."
+        </div>
+        <h4><i class="fa-solid fa-landmark me-2"></i>الحجر التراثي وإحياء العمارة السعودية</h4>
+        <p>
+          تشهد المملكة اليوم نهضة معمارية تراثية لافتة، تتجلى في مشاريع التطوير الكبرى كنيوم والعُلا ودرب العذراء وغيرها، إذ تُشكّل الواجهات الحجرية التراثية ركيزة أساسية في هوية هذه المشاريع. والحجر التراثي ليس مجرد تكسية، بل هو تعبير عن انتماء وهوية وتواصل بين الأجيال.
+        </p>
+        <p>
+          نعمل على استيحاء أنماط العمارة التقليدية في الحجاز والنجد والجنوب وتوظيفها في مشاريع معاصرة دون الإخلال بالوظيفة العملية أو متطلبات التشييد الحديث. فتجد الأقواس الحجرية والروشان الحجري والشبك التراثي حاضرة في واجهات تجمع بين الأصالة والمعاصرة.
+        </p>
+        <h4><i class="fa-solid fa-border-all me-2"></i>الشبك المعماري — الهوية الحجرية المنقوشة</h4>
+        <p>
+          يُعدّ الشبك المعماري من أبرز عناصر العمارة التراثية في منطقة الخليج والجزيرة العربية. وهو عبارة عن لوحات أو ألواح حجرية (أو معدنية) مثقوبة بأنماط هندسية متكررة تسمح بمرور الهواء والضوء مع توفير الخصوصية. تُستخدم في واجهات المباني والأسوار والنوافذ والمداخل.
+        </p>
+        <ul>
+          <li><strong>الشبك الحجري المنحوت:</strong> يُقطع من الحجر الجيري أو الرملي بأشكال هندسية إسلامية جميلة.</li>
+          <li><strong>الشبك الطيني التراثي:</strong> يعيد تصاميم العمارة الطينية التقليدية بمواد حديثة.</li>
+          <li><strong>الشبك المعدني الحجري المركب:</strong> يجمع بين متانة المعدن وجمالية الحجر للمشاريع الفاخرة.</li>
+          <li><strong>شبك الجي آر سي:</strong> خفيف الوزن قابل للتشكيل بأي نمط هندسي بدقة عالية.</li>
+        </ul>
+        <h4><i class="fa-solid fa-truck me-2"></i>توريد وتركيب الحجر عبر المملكة</h4>
+        <p>
+          تُشكّل لوجستيات نقل الحجر تحدياً حقيقياً بالنظر إلى ضخامة وزنه وحجمه. لذلك نمتلك أسطولاً من الشاحنات المتخصصة وشبكة شركاء توزيع في جميع مناطق المملكة لضمان وصول الحجر إلى موقع المشروع في الوقت المحدد وبسلامة تامة. كما يضم فريقنا الفني عمالةً مدربة على تقنيات التركيب الحديثة التي تضمن تثبيتاً محكماً وعمراً افتراضياً طويلاً.
+        </p>
+        <h4><i class="fa-solid fa-house-chimney me-2"></i>تطبيقات الحجر الطبيعي في المشاريع</h4>
+        <ul>
+          <li>واجهات الفلل والمنازل السكنية والمجمعات السكنية</li>
+          <li>مداخل الفنادق والمنتجعات الفاخرة</li>
+          <li>أسوار القصور والمجمعات الكبرى</li>
+          <li>أرضيات الساحات الخارجية والممشيات</li>
+          <li>المباني التراثية والمتاحف والمراكز الثقافية</li>
+          <li>المشاريع الحكومية والمواقع التاريخية</li>
+          <li>الحدائق والمنتزهات العامة</li>
+          <li>الجدران الاستنادية والدرابزين الحجري</li>
+        </ul>
+        <h4><i class="fa-solid fa-shield-check me-2"></i>معايير الجودة التي نلتزم بها</h4>
+        <p>
+          نحرص على التزام أعلى معايير الجودة في كل مراحل العمل؛ بدءاً من اختيار الحجر وفحص خصائصه الفيزيائية والكيميائية، مروراً بالنقل والتخزين السليم، وانتهاءً بعمليات التركيب والتشطيب النهائي. نستخدم مواد ربط وتثبيت معتمدة دولياً لضمان متانة الأعمال على مدى عقود.
+        </p>
+        <div class="art-kw">
+          <span class="kw-tag">حجر طبيعي</span>
+          <span class="kw-tag">حجر تراثي</span>
+          <span class="kw-tag">شبك معماري</span>
+          <span class="kw-tag">توريد حجر</span>
+          <span class="kw-tag">تركيب حجر</span>
+          <span class="kw-tag">واجهات حجرية</span>
+          <span class="kw-tag">حجر بازلت</span>
+          <span class="kw-tag">حجر رملي</span>
+          <span class="kw-tag">حجر جرانيت</span>
+          <span class="kw-tag">الرياض</span>
+          <span class="kw-tag">جدة</span>
+          <span class="kw-tag">مكة</span>
+          <span class="kw-tag">المدينة</span>
+          <span class="kw-tag">الدمام</span>
+          <span class="kw-tag">عمارة تراثية</span>
+          <span class="kw-tag">شبك حجري</span>
+          <span class="kw-tag">أسوار حجرية</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NUMBERS ===== -->
+<section id="numbers">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">إنجازاتنا</div>
+      <h2 class="sec-title">أرقامنا <span>تتكلم</span></h2>
+      <div class="divider mx-auto"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="80">
+        <div class="num-card">
+          <i class="fa-solid fa-briefcase"></i>
+          <div class="num-val" data-target="300">0</div>
+          <div class="num-label">مشروع منجز</div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="140">
+        <div class="num-card">
+          <i class="fa-solid fa-users"></i>
+          <div class="num-val" data-target="250">0</div>
+          <div class="num-label">عميل راضٍ</div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="num-card">
+          <i class="fa-solid fa-calendar-check"></i>
+          <div class="num-val" data-target="20">0</div>
+          <div class="num-label">سنة خبرة</div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="260">
+        <div class="num-card">
+          <i class="fa-solid fa-map-marked-alt"></i>
+          <div class="num-val" data-target="13">0</div>
+          <div class="num-label">منطقة في المملكة</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COVERAGE ===== -->
+<section id="coverage">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">التغطية</div>
+      <h2 class="sec-title">نخدمكم في <span>كل مكان</span></h2>
+      <div class="divider mx-auto"></div>
+      <p class="sec-desc mx-auto">نوفر خدمات التوريد والتركيب في جميع مناطق المملكة العربية السعودية</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+        <div class="cov-card">
+          <div class="cov-icon"><i class="fa-solid fa-city"></i></div>
+          <h3>منطقة الرياض</h3>
+          <p>العاصمة وجميع محافظاتها ومراكزها بما فيها الخرج والمجمعة والدوادمي.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="140">
+        <div class="cov-card">
+          <div class="cov-icon"><i class="fa-solid fa-water"></i></div>
+          <h3>منطقة مكة والغرب</h3>
+          <p>جدة ومكة المكرمة والطائف والقنفذة وجميع محافظات المنطقة.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="cov-card">
+          <div class="cov-icon"><i class="fa-solid fa-mosque"></i></div>
+          <h3>المدينة المنورة</h3>
+          <p>المدينة المنورة وينبع والعُلا ومحافظات منطقة المدينة كافة.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="260">
+        <div class="cov-card">
+          <div class="cov-icon"><i class="fa-solid fa-oil-well"></i></div>
+          <h3>المنطقة الشرقية</h3>
+          <p>الدمام والخبر والأحساء والجبيل وحفر الباطن وجميع المحافظات.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row g-4 mt-2 justify-content-center">
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+        <div class="cov-card">
+          <div class="cov-icon"><i class="fa-solid fa-mountain"></i></div>
+          <h3>منطقة عسير والجنوب</h3>
+          <p>أبها وخميس مشيط ونجران وجازان وبيشة والمناطق الجنوبية.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="140">
+        <div class="cov-card">
+          <div class="cov-icon"><i class="fa-solid fa-sun"></i></div>
+          <h3>القصيم والشمال</h3>
+          <p>بريدة وعنيزة وحائل وتبوك والجوف والحدود الشمالية.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section id="testimonials" style="background:var(--dark-bg)">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">آراء العملاء</div>
+      <h2 class="sec-title">ماذا يقول <span>عملاؤنا</span></h2>
+      <div class="divider mx-auto"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+        <div class="test-card">
+          <div class="test-qmark">"</div>
+          <div class="test-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="test-text">ركّبوا لنا واجهة الفيلا كلها بالحجر الرملي الطبيعي والنتيجة مذهلة. الجيران مو مصدقين شو تحولت الواجهة. جودة عالية وتنفيذ محترف.</p>
+          <div class="test-author">
+            <div class="auth-av">ع</div>
+            <div><div class="auth-name">عبدالله العتيبي</div><div class="auth-city"><i class="fa-solid fa-location-dot me-1"></i>الرياض</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+        <div class="test-card">
+          <div class="test-qmark">"</div>
+          <div class="test-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="test-text">وصلوا للمنطقة الشرقية وركّبوا الشبك الحجري التراثي لمشروع التجاري. التزموا بالجدول الزمني تماماً والسعر كان منافساً جداً. موصي فيهم.</p>
+          <div class="test-author">
+            <div class="auth-av">م</div>
+            <div><div class="auth-name">محمد الحربي</div><div class="auth-city"><i class="fa-solid fa-location-dot me-1"></i>الدمام</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="240">
+        <div class="test-card">
+          <div class="test-qmark">"</div>
+          <div class="test-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+          <p class="test-text">استخدموا حجر البازلت الأسود في سور المشروع والنتيجة كانت أفضل من توقعاتي. تعامل راقي وأسعار عادلة وخدمة ممتازة. شكراً جزيلاً.</p>
+          <div class="test-author">
+            <div class="auth-av">س</div>
+            <div><div class="auth-name">سلطان الزهراني</div><div class="auth-city"><i class="fa-solid fa-location-dot me-1"></i>جدة</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">الأسئلة الشائعة</div>
+      <h2 class="sec-title">أسئلة <span>يسألها عملاؤنا</span></h2>
+      <div class="divider mx-auto"></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+        <div class="faq-item">
+          <div class="faq-q"><span>هل تعملون في جميع مناطق المملكة؟</span><i class="fa-solid fa-plus faq-ic"></i></div>
+          <div class="faq-ans">نعم، نغطي جميع المناطق الثلاث عشرة في المملكة العربية السعودية. لدينا شبكة توزيع وفرق تركيب في مختلف المناطق.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><span>ما أنواع الحجر التي تتوفر لديكم؟</span><i class="fa-solid fa-plus faq-ic"></i></div>
+          <div class="faq-ans">نوفر البازلت والجرانيت والحجر الرملي والجيري والصوان والطفلة وأنواعاً أخرى متعددة بألوان وأبعاد مختلفة تناسب كل مشروع.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><span>هل تقدمون خدمة المعاينة المجانية؟</span><i class="fa-solid fa-plus faq-ic"></i></div>
+          <div class="faq-ans">نعم، نقدم خدمة المعاينة الميدانية والاستشارة المجانية لجميع المشاريع ضمن نطاق خدمتنا.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><span>كم يستغرق تنفيذ مشروع الواجهات الحجرية؟</span><i class="fa-solid fa-plus faq-ic"></i></div>
+          <div class="faq-ans">يعتمد ذلك على حجم المشروع وتعقيده. المشاريع الصغيرة تستغرق أياماً، والكبيرة قد تتطلب أسابيع. نلتزم دائماً بالجدول الزمني المتفق عليه.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><span>هل يوجد ضمان على الأعمال؟</span><i class="fa-solid fa-plus faq-ic"></i></div>
+          <div class="faq-ans">نعم، نقدم ضماناً شاملاً على جودة الحجر وجودة التركيب، مع خدمة صيانة لاحقة لضمان متانة الأعمال على المدى الطويل.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><span>هل يمكن تنفيذ تصاميم مخصصة للشبك؟</span><i class="fa-solid fa-plus faq-ic"></i></div>
+          <div class="faq-ans">بالتأكيد، نوفر تصاميم مخصصة بالكامل حسب رغبة العميل، سواء نماذج هندسية إسلامية تقليدية أو تصاميم عصرية مبتكرة.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" style="background:var(--dark-bg)">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="sec-label justify-content-center">تواصل معنا</div>
+      <h2 class="sec-title">احصل على <span>عرض سعر مجاني</span></h2>
+      <div class="divider mx-auto"></div>
+      <p class="sec-desc mx-auto">تواصل معنا الآن واحصل على استشارة مجانية وعرض سعر تفصيلي</p>
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-5" data-aos="fade-left">
+        <div class="cnt-info">
+          <h4 class="mb-4" style="color:var(--sand);font-family:'Scheherazade New',serif">معلومات التواصل</h4>
+          <div class="cnt-item">
+            <div class="cnt-icon"><i class="fa-solid fa-phone"></i></div>
+            <div><div class="cnt-lbl">الهاتف</div><div class="cnt-val"><a href="tel:0535422043">0535422043</a></div></div>
+          </div>
+          <div class="cnt-item">
+            <div class="cnt-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div><div class="cnt-lbl">واتساب</div><div class="cnt-val"><a href="https://wa.me/966500000000" target="_blank">تواصل عبر واتساب</a></div></div>
+          </div>
+          <div class="cnt-item">
+            <div class="cnt-icon"><i class="fa-solid fa-map-marked-alt"></i></div>
+            <div><div class="cnt-lbl">نطاق الخدمة</div><div class="cnt-val">جميع مناطق المملكة</div></div>
+          </div>
+          <div class="cnt-item">
+            <div class="cnt-icon"><i class="fa-solid fa-clock"></i></div>
+            <div><div class="cnt-lbl">أوقات العمل</div><div class="cnt-val">السبت – الخميس | 8ص – 9م</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="fade-right">
+        <div class="form-wrap">
+          <h4 class="mb-4" style="color:var(--sand);font-family:'Scheherazade New',serif"><i class="fa-solid fa-paper-plane me-2"></i>أرسل لنا رسالتك</h4>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">الاسم الكريم</label>
+              <input type="text" class="form-control" id="fname" placeholder="أدخل اسمك">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">رقم الجوال</label>
+              <input type="tel" class="form-control" id="fphone" placeholder="05XXXXXXXX">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">المنطقة</label>
+              <select class="form-select" id="fregion">
+                <option value="" disabled selected>اختر منطقتك</option>
+                <option>الرياض</option><option>مكة المكرمة</option><option>المدينة المنورة</option>
+                <option>المنطقة الشرقية</option><option>عسير</option><option>تبوك</option>
+                <option>حائل</option><option>القصيم</option><option>جازان</option>
+                <option>نجران</option><option>الباحة</option><option>الجوف</option>
+                <option>الحدود الشمالية</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">نوع الخدمة</label>
+              <select class="form-select" id="fservice">
+                <option value="" disabled selected>اختر الخدمة</option>
+                <option>توريد حجر طبيعي</option>
+                <option>تركيب واجهات حجرية</option>
+                <option>شبك معماري</option>
+                <option>حجر تراثي</option>
+                <option>توريد وتركيب</option>
+                <option>خدمات متعددة</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label">تفاصيل المشروع</label>
+              <textarea class="form-control" id="fmsg" placeholder="اشرح مشروعك باختصار..."></textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn-sand w-100 py-3 justify-content-center border-0" onclick="sendWA()">
+                <i class="fa-brands fa-whatsapp"></i>إرسال عبر واتساب
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BAND ===== -->
+<div id="cta-band">
+  <div class="container position-relative">
+    <div data-aos="fade-up">
+      <div class="sec-label justify-content-center">اتصل الآن</div>
+      <h2 class="cta-title">جاهزون لخدمتكم <span style="background:linear-gradient(135deg,var(--sand-dk),var(--sand));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">في كل مكان</span></h2>
+      <p class="cta-desc">تواصل معنا الآن واحصل على استشارة مجانية وعرض سعر تفصيلي لمشروعك</p>
+      <div class="cta-phones">
+        <a href="tel:0535422043" class="cta-ph"><i class="fa-solid fa-phone"></i>0535422043</a>
+        <a href="https://wa.me/966535422043" class="cta-ph" target="_blank" style="background:rgba(37,211,102,.1);border-color:rgba(37,211,102,.28);color:#25D366"><i class="fa-brands fa-whatsapp"></i>واتساب</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer id="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <div class="brand-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+          <div class="ft-brand">حجر وتراث وشبك</div>
+        </div>
+        <p class="ft-desc">متخصصون في توريد وتركيب الحجر الطبيعي والتراثي والشبك المعماري في جميع أنحاء المملكة العربية السعودية.</p>
+        <div class="ft-social">
+          <a href="https://wa.me/966535422043" class="soc-btn" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="tel:0535422043" class="soc-btn"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="ft-heading">روابط سريعة</h6>
+        <ul class="ft-links">
+          <li><a href="#about"><i class="fa-solid fa-chevron-left"></i>من نحن</a></li>
+          <li><a href="#services"><i class="fa-solid fa-chevron-left"></i>خدماتنا</a></li>
+          <li><a href="#works"><i class="fa-solid fa-chevron-left"></i>أعمالنا</a></li>
+          <li><a href="#article"><i class="fa-solid fa-chevron-left"></i>المقال</a></li>
+          <li><a href="#faq"><i class="fa-solid fa-chevron-left"></i>الأسئلة</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h6 class="ft-heading">خدماتنا</h6>
+        <ul class="ft-links">
+          <li><a href="#services"><i class="fa-solid fa-chevron-left"></i>حجر طبيعي</a></li>
+          <li><a href="#services"><i class="fa-solid fa-chevron-left"></i>حجر تراثي</a></li>
+          <li><a href="#services"><i class="fa-solid fa-chevron-left"></i>شبك معماري</a></li>
+          <li><a href="#services"><i class="fa-solid fa-chevron-left"></i>واجهات حجرية</a></li>
+          <li><a href="#services"><i class="fa-solid fa-chevron-left"></i>توريد وتركيب</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="ft-heading">اتصل بنا</h6>
+        <ul class="ft-links">
+          <li><a href="tel:0535422043"><i class="fa-solid fa-phone"></i>0535422043</a></li>
+          <li><a href="https://wa.me/966535422043" target="_blank"><i class="fa-brands fa-whatsapp"></i>واتساب</a></li>
+          <li><a href="#coverage"><i class="fa-solid fa-map-marked-alt"></i>جميع مناطق المملكة</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <p>© 2026 حجر طبيعي وتراث وشبك — جميع الحقوق محفوظة</p>
+      <a href="https://www.facebook.com/profile.php?id=100090592885243&locale=ar_AR" target="_blank" class="gmt-link">
+        <i class="fa-solid fa-code me-1"></i>تم التصميم بواسطة GMTWEB
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOAT BUTTONS -->
+<div class="wa-float">
+  <a href="https://wa.me/966535422043" class="wa-btn" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i><span>واتساب</span>
+  </a>
+</div>
+<div class="ph-float">
+  <a href="tel:0535422043" class="ph-btn"><i class="fa-solid fa-phone"></i></a>
+</div>
+<div id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <i class="fa-solid fa-chevron-up"></i>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"></script>
+
+<script>
+// PRELOADER
+window.addEventListener('load', () => { setTimeout(() => document.getElementById('preloader').classList.add('hide'), 2600); });
+
+// CURSOR
+const cDot = document.getElementById('cDot'), cRing = document.getElementById('cRing');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove', e => { mx=e.clientX; my=e.clientY; cDot.style.left=mx-4+'px'; cDot.style.top=my-4+'px'; });
+(function animR(){ rx+=(mx-rx)*.13; ry+=(my-ry)*.13; cRing.style.left=rx-19+'px'; cRing.style.top=ry-19+'px'; requestAnimationFrame(animR); })();
+document.querySelectorAll('a,button,.srv-card,.work-card,.stone-card').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{cRing.style.width='54px';cRing.style.height='54px';cRing.style.opacity='.9';cDot.style.transform='scale(0)'});
+  el.addEventListener('mouseleave',()=>{cRing.style.width='38px';cRing.style.height='38px';cRing.style.opacity='.55';cDot.style.transform='scale(1)'});
+});
+
+// NAVBAR SCROLL
+window.addEventListener('scroll', () => {
+  document.getElementById('mainNav').classList.toggle('scrolled', window.scrollY > 60);
+  document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 400);
+});
+
+// AOS
+AOS.init({ duration: 680, once: true, offset: 55 });
+
+// COUNTERS
+const cobs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting){
+      const el=e.target, tgt=+el.dataset.target, dur=1800, step=tgt/(dur/16);
+      let cur=0;
+      const t=setInterval(()=>{ cur+=step; if(cur>=tgt){cur=tgt;clearInterval(t);} el.textContent=Math.round(cur); },16);
+      cobs.unobserve(el);
+    }
+  });
+},{threshold:.5});
+document.querySelectorAll('[data-target]').forEach(el=>cobs.observe(el));
+
+// BUILD WORKS GRID (34 images)
+const grid = document.getElementById('worksGrid');
+for(let i=1;i<=34;i++){
+  const a=document.createElement('a');
+  a.href=`Css/${i}.jpeg`;
+  a.className='work-card glightbox';
+  a.setAttribute('data-gallery','works');
+  a.setAttribute('data-glightbox',`title=مشروع ${i}`);
+  a.setAttribute('data-aos','zoom-in');
+  a.setAttribute('data-aos-delay', Math.min((i%6)*50, 250));
+  a.innerHTML=`
+    <img src="Css/${i}.jpeg" alt="مشروع حجر طبيعي ${i}" loading="lazy" onerror="this.parentElement.style.background='var(--charcoal)';this.style.display='none'">
+    <div class="work-overlay"><div class="zoom-ic"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>`;
+  grid.appendChild(a);
+}
+
+// GLIGHTBOX
+GLightbox({ selector:'.glightbox', touchNavigation:true, loop:true });
+
+// FAQ
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const item=q.closest('.faq-item'), open=item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(f=>f.classList.remove('open'));
+    if(!open) item.classList.add('open');
+  });
+});
+
+// WHATSAPP FORM
+function sendWA(){
+  const n=document.getElementById('fname').value.trim()||'لم يذكر';
+  const p=document.getElementById('fphone').value.trim()||'لم يذكر';
+  const r=document.getElementById('fregion').value||'لم تحدد';
+  const s=document.getElementById('fservice').value||'لم تحدد';
+  const m=document.getElementById('fmsg').value.trim()||'لا يوجد';
+  const txt=`السلام عليكم،\nأود الاستفسار عن:\n\nالاسم: ${n}\nالجوال: ${p}\nالمنطقة: ${r}\nالخدمة: ${s}\nتفاصيل: ${m}`;
+  window.open(`https://wa.me/966500000000?text=${encodeURIComponent(txt)}`,'_blank');
+}
+
+// SMOOTH SCROLL
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'});}
+  });
+});
+
+// PARALLAX PATTERN
+window.addEventListener('scroll',()=>{
+  const p=document.querySelector('.hero-pattern');
+  if(p) p.style.transform=`translateY(${window.scrollY*.25}px)`;
+});
+</script>
+</body>
+</html>
